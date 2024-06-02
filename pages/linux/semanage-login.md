@@ -10,8 +10,8 @@
 
 - Map a Linux user to a SELinux user:
 
-`semanage login {{-a|--add}} {{-s|--seuser}} {{SELinux_username}} {{Linux_username}}`
+`semanage login {{-a|--add}} {{-s|--seuser}} {{selinux_username}} {{Linux_username}}`
 
 - Remove mapping between a Linux user and a SELinux user:
 
-`semanage login {{-d|--delete}} {{Linux_username}}`
+`semanage login {{-d|--delete}} {{linux_username}}`
